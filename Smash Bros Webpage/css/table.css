@@ -1,0 +1,14 @@
+table, tr, th, td {
+	border: 1px solid green;
+	background-color: white;
+	padding: 5px;
+}
+
+th {
+	font-weight: bold;
+	background-color: rgb(184, 184, 184);
+}
+
+button {
+	background-color: rgb(184, 184, 184);
+}

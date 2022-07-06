@@ -1,0 +1,37 @@
+ul {
+	display: none;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+section {
+	flex: 1 30%;
+	margin: 0;
+}
+
+aside {
+	color: white;
+	order: 1;
+	margin: 3%;
+	width: 90%;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+aside > * {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+footer {
+	order: 1
+}
